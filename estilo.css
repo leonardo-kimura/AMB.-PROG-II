@@ -1,0 +1,8 @@
+/*estilo importado*/
+h1{color:red;}
+p{font-family: verdana;}
+/*classe associada*/
+h1.cor1{color:green;}
+h1.cor2{color:orange;}
+/*classe não associada*/
+.centro{text-align: center;}
