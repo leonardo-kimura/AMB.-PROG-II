@@ -1,0 +1,30 @@
+.alinhar{
+    width:500px;
+    margin:0px auto;
+}
+.lista1{
+    list-style-type: upper-roman;
+}
+.lista2{
+    list-style-type: square;
+}
+*{
+    font-family: arial;
+    font-size: 20px;
+}   
+.vertical{
+    vertical-align: middle;
+}
+.centro{
+    text-align: center;
+}
+.transp{
+    opacity: 0.5;
+}
+.fundo{
+    background-image:url('css.jpg');
+    background-repeat: repeat-y;
+    background-position: right;
+    background-attachment: fixed;
+    background-color: aqua;
+}
