@@ -1,0 +1,38 @@
+.estilo{
+    list-style-type:lower-roman;
+}
+.negrito{
+    font-weight: bold;
+}
+.centralizar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.estrela{
+    height: 15px;
+    width: 15px;
+}
+.borda{
+    border: 1px solid black;
+    display: inline-block;
+}
+.texto{
+    text-align: center;
+}
+.ciano{
+    background-color: aqua;
+}
+.amarelo{
+    background-color: yellow;
+}
+.cinza{
+    background-color: gray;
+}
+.table-container{
+    width: 80%;
+    margin: 20px;
+    border-collapse: collapse;
+    border: 1px solid black;
+    font-weight: bold;
+}
