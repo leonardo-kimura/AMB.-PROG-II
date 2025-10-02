@@ -142,7 +142,7 @@
                         <div class="campos-em-linha">
                             <div class="campo-grupo">
                                 <label for="nome-completo">Nome completo</label>
-                                <input type="text" id="nome-completo" name="nome-completo" placeholder="Seu nome aqui">
+                                <input type="text" id="nome-completo" name="nome-completo" placeholder="Seu nome aqui" required>
                             </div>
                              <div class="campo-grupo">
                                 <label for="email">E-mail para receber lembretes</label>
@@ -152,7 +152,8 @@
 
                         <div class="campo-grupo">
                             <label for="telefone">Telefone para contato rápido</label>
-                            <input type="tel" id="telefone" name="telefone" placeholder="(XX) XXXXX-XXXX">
+                            <input type="tel" id="telefone" pattern="\(\d{2}\)\s\d{5}-\d{4}" 
+                            placeholder="(XX) XXXXX-XXXX" />
                         </div>
 
                          <div class="campo-grupo">
