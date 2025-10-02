@@ -1,0 +1,62 @@
+*{
+    font: 20px verdana;
+}
+#pai{
+    width: 100%;
+    margin: 0 auto;
+}
+#topo{
+    width: 100%;
+    height: 80px;
+    background-color: aqua;
+}
+#menu{
+    width: 500px;
+    height: 400px;
+    background-color: pink;
+}
+#conteudo{
+    width: 400px;
+    height: 400px;
+    background-color: aquamarine;
+    float: left;
+}
+#rodape{
+    width: 100%;
+    height: 40px;
+    background-color: yellowgreen   ;
+    float: left;
+}
+#sta{
+    position: static;
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    z-index: 10;
+}
+#abs{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 100px;
+    left: 100px;
+    background-color: blue;
+}
+#rel{
+    position: relative;
+    width: 300px;
+    height: 200px;
+    top: 250px; left: 200px;
+    background-color: red;
+}
+#fix{
+    position: fixed;
+    width: 200px;
+    height: 200px;
+    top: 60px;
+    left: 300px;
+    background-color: yellow;
+}
+#abs:hover{
+    z-index: 20;
+}

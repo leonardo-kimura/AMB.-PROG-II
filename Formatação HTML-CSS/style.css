@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 4px;
+  padding: 0px;
+}
+.titulo{
+    font-family: "Roboto Mono";
+    text-transform: uppercase;
+}
+.subtitulo{
+    font-family: "Roboto Mono";
+}
+p{
+    font-family: "Oswald"
+}
+.negrito{
+    font-weight: bold;
+    color: "Charcoal Greys";
+}
+div a{
+    font-weight: bold;
+    color: blue
+}
+.sombra-verde{
+    text-shadow: 3px 3px 3px green;
+    padding: 10px;
+}
+.sombra-amarelo{
+    text-shadow: 3px 3px 3px yellow;
+    padding: 10px;
+}
+.sombra-vermelho{
+    text-shadow: 3px 3px 3px red;
+    padding: 10px;
+}
+.nome-aluno {
+  font-family: "Roboto Mono", monospace;
+  font-weight: bold;
+  color: blue;
+  margin-top: 50px;
+  text-align: center;
+}

@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 1400px;
+    background-color: rgba(48, 43, 117, 0.133) ;
+}
+
+ul{
+    display: flex;
+    gap: 20px;  /*da um espacamento para ambos os lados*/
+    padding: 10px 20px;
+}
+
+li{
+    list-style: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+li:hover{
+    background-color: beige;
+    color: black;
+}
+
+.post{
+    width: 100%;
+    height: 100px;
+    background-color: aqua;
+    display: flex;
+}
+
+.post-content{
+    width: 25%;
+    height: 100%;
+    background-color: blue;
+}
