@@ -10,3 +10,5 @@ print(f"O texto tem {qtd_palavras} palavras.")
 texto_invertido = inverter_texto(texto)
 print(f"O texto invertido: {texto_invertido}")
 
+
+
